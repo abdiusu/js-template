@@ -1,0 +1,103 @@
+.isiurl{
+background-color: #eaeaea;
+    border: 1px solid #444;
+    padding: 10px;
+    text-align: left;
+    word-wrap: break-word;}
+
+#timer{
+margin: auto;
+    text-align: center;
+    margin-left: 44%;
+}
+
+.pietimer{
+position: relative;
+    font-size: 200px;
+}
+
+.pietimer &gt; .percent{
+position: inherit;
+    width: 40px;
+    font-size: 13px;
+    display: block;
+    border-radius: 100%;
+    padding: 7px 0px;
+    font-weight: bold;
+    box-shadow: 0 0 1px 1px #2772d2;
+    background-color: #d9e410fc;
+}
+
+.hidden {
+display: none;
+}
+
+.pietimer.fill &gt; .percent{
+display:block
+}
+
+.btn.bt-success{
+font-size: 15px;
+    box-shadow: 0 0 0 1px #2772d2;
+    background-color: #d9e410fc;
+    padding: 2px 12px;
+    border-radius: 16px;
+}
+.bungabdi1 {
+    text-align: center;
+    font-weight: bold;
+    margin: 10px;
+    background-color: #4ecce6;
+    color: white;
+    border-radius: 10px;
+    font-size: 16px;
+    padding: 5px;
+}
+input#generateurl {
+    width: 70%;
+    padding: 5px;
+    margin: 10px;
+    box-shadow: 0 0 0 1px #0000005c;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: 15px;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+}
+
+button#btngenerate {
+    text-align: center;
+    padding: 8px;
+    margin-left: 10px;
+margin-bottom: 6px;
+}
+
+i.fa.fa-link {
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: 13px;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+}
+
+span.input-group-addon {
+    margin-left: 10px;
+font-size: 13px;
+}
+
+input#resulturl {
+    width: 70%;
+    padding: 5px;
+    margin: 10px;
+    box-shadow: 0 0 5px 1px #a4a9a2;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: 15px;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+}
+
+button#copytoclipboard {
+    text-align: center;
+    padding: 8px;
+    margin-left: 10px;
+    margin-bottom: 6px;
+}
